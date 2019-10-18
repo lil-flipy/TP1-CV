@@ -1,0 +1,50 @@
+body{
+	margin: 20px;
+	padding: 0px;
+	background-image: linear-gradient(to right, #33FFAF, #33E1FF, #B333FF);
+}
+
+
+.bout {
+	margin-left: 20.5%;
+	margin-right: 0%;
+}
+
+.bou {
+	margin-left: 50%;
+	margin-right: 0%;
+}
+
+body {
+  font: 20px Arial;
+  
+  margin-top: 6em;
+}
+
+
+@keyframes bounce {
+  0% {
+    transform: translateY(-400%);
+  }
+  100% {
+    transform: translateY(0);
+  }
+}
+ 
+ header>h3
+ {
+	margin-left: 20.5%;
+ }
+
+ header>img
+ {
+	margin-left: 46%;
+ }
+
+.a
+{
+	
+	animation: bounce 2s;
+ 	color : #6F07AC;
+ 	margin-left: 32%;
+}

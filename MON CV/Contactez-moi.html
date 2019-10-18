@@ -1,0 +1,44 @@
+<!-- 
+
+Mes ACQUIS:
+
+1.CREER DES CHAMPS 
+Creer un formulaire: <form></form>
+Récuperer et envoyer le texte: (dans le <form>), method="post" action="traitement.php"
+Creer la zone blanche : (entre les balise <form>) <input type="text" name="nom"(le nom de l'element dans le formulaire pour le fichier php)/>
+Nommer la zone blanche: (à mettre devant le imput) <label>Nom</label>:
+Et la nommer pour l'ordi: on met dans <label> for="Nom"
+Pour créér une maxi zone de texte: (apres les balises <label> à la place d imput) <textarea name="ameliorer" id="ameliorer"></textarea>
+Faire un boutton : <p> <input type="submit" value="..." /> </p>
+-->
+
+
+<html lang="fr">
+	<head>
+		<meta charset=utf-8>
+		<title>Contactez-moi!</title>
+		<link rel="stylesheet" type="text/css" href="CV.css">
+	</head>
+
+
+	<body>
+		
+		<h1 align="center">Contactez-moi!</h1>
+		<h4 align="center"><em>Veuillez renseigner vos coordonnées ci-dessous</em></h4>
+		<div>
+		<form method="post" action="traitement.php">
+			
+			<p> <label for="nom">Nom et Prénom</label> : <input type="text" name="nom" placeholder="Ex : Patrick Lafarge"/> </p>
+
+			<p> <label for="email">E-mail</label> : <input type="text" name="email" placeholder="Ex : patrick.lafarge@gmail.com" size="30" /> </p>
+
+			<p> <label for="proposition">Votre proposition</label> :<br/>  <textarea name="proposition" id="proposition"></textarea> </p>
+
+			<p> <input type="submit" value="Envoyer" /> </p>
+		</div>
+		</form>
+	
+
+	</body>
+	
+</html>
